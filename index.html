@@ -40,65 +40,65 @@
             Contact
           </a>
         </li>
-    
+    </ul>
         <!--right side-->
     <div class="nav-right">
             <a href="#login" class="login">Login</a>
             <a href="#contact" class="contact">+91 123 456 789</a>
-        </ul>
+        
     </div>
     </div>
-
-  
 
   </div>
 </nav>
 
+<main>
 <section class="hero-section">
     <div class="container hero">
         <div class="content">
             <h1>Discover Your Next Exceptional Home.</h1>
         <p>Explore an exclusive collection of premier real estate properties tailored to elevate your lifestyle. </p>
         <div class="button">
-            <button class="explore">Explore Properties</button>
-            <button class="contact"> Contact Agent </button>
+            <a href="#" class="explore">Explore Properties</a>
+            <a href="#" class="contact"> Contact Agent </a>
         </div>
        </div>
     </div>
+    <form action="">
     <div class="property-search">
-    <div class="search-item">
-        <label>LOOKING FOR</label>
-        <select>
-            <option>Property Type</option>
+     <div class="search-item">
+        <label for="property-type">LOOKING FOR</label>
+        <select name="property-type">
+            <option id="property-type">Property Type</option>
         </select>
     </div>
 
     <div class="search-item">
-        <label>LOCATION</label>
-        <select>
-            <option>All Locations</option>
+        <label for="location">LOCATION</label>
+        <select name="location">
+            <option id="location">All Locations</option>
         </select>
     </div>
 
     <div class="search-item">
-        <label>BHK</label>
-        <select>
-            <option>Select BHK</option>
+        <label for="bhk">BHK</label>
+        <select name="bhk">
+            <option id="bhk">Select BHK</option>
         </select>
     </div>
 
     <div class="search-item">
-        <label>YOUR BUDGET</label>
-        <select>
-            <option>Max. Price</option>
+        <label for="budget">YOUR BUDGET</label>
+        <select name="budget">
+            <option id="budget">Max. Price</option>
         </select>
     </div>
 
-    <button class="search-btn">
-        Search Property
-    </button>
+    <a href="#search_property" class="btn btn-dark border p-2 m-2">
+        Search 
+    </a>
     </div>
-        
+    </form>  
 </section>
 
 <section>
@@ -106,7 +106,7 @@
         <div class="left">
             <h2>Redefining Luxury Living spaces</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni autem fugit, vel reiciendis consequatur cupiditate voluptatem quod nostrum ipsa asperiores rerum provident molestiae incidunt facere, reprehenderit tenetur placeat corporis animi.</p>
-            <button>Learn More About Us</button>
+            <a type="button" class="btn btn-info p-2 m-2 border">Learn More About Us</a>
             <div class="quality">
                 <div class="transaction">
                     <img src="/assests/images/icon1.png" alt="icon1">
@@ -122,9 +122,11 @@
 
         </div>
         <div class="right">
-            <img src="/assests/images/luxury1.png" alt="feature1">
-            <img src="/assests/images/luxury2.png" alt="feature2">
-            <img src="/assests/images/luxury3.png" alt="Feature3">
+            <div class="wrapper">
+             <img src="/assests/images/luxury2.png" alt="feature1">
+             <img src="/assests/images/luxury1.png" alt="feature2">
+             <img src="/assests/images/luxury3.png" alt="Feature3">
+            </div>
         </div>
 
     </div>
@@ -247,6 +249,306 @@
     </div>
 </section>
 
+<section class="development py-5">
+    <div class="container">
+
+        <div class="section-header mb-5">
+            <h2 class="fw-bold">Ongoing Development</h2>
+            <p class="text-muted">
+                Invest in the future with our exclusive off-plan and under-construction projects.
+            </p>
+        </div>
+
+       
+        <div class="development-card mb-4">
+            <div class="row g-0 align-items-center">
+
+                <div class="col-lg-6">
+                    <img src="/assests/images/developing.png"
+                        alt="Horizon Towers"
+                        class="img-fluid w-100 development-img">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="p-4 p-lg-5">
+
+                        <span class="status-badge">
+                            Completion Q4 2026
+                        </span>
+
+                        <h3 class="mt-4 mb-2">
+                            The Horizon Towers
+                        </h3>
+
+                        <p class="location">
+                            📍 Downtown Financial District
+                        </p>
+
+                        <p class="text-muted">
+                            Experience the pinnacle of urban living with our upcoming
+                            high-rise luxury apartments. Featuring panoramic city views,
+                            world-class resident amenities including a rooftop infinity
+                            pool, wellness center, and 24/7 concierge service.
+                        </p>
+
+                        <div class="d-flex gap-3 mt-4 flex-wrap">
+                            <a href="#" class="btn btn-success px-4">
+                                View Project Details
+                            </a>
+
+                            <a href="#" class="btn btn-outline-secondary px-4">
+                                Download Brochure
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    
+        <div class="development-card">
+
+            <div class="row g-0 align-items-center">
+
+                <div class="col-lg-6">
+                    <img src="/assests/images/developing2.png"
+                        alt="Eden Grove Estate"
+                        class="img-fluid w-100 development-img">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="p-4 p-lg-5">
+
+                        <span class="status-badge">
+                            Phase 1 Sold Out
+                        </span>
+
+                        <h3 class="mt-4 mb-2">
+                            Eden Grove Estate
+                        </h3>
+
+                        <p class="location">
+                            📍 New Town
+                        </p>
+
+                        <p class="text-muted">
+                            A master-planned gated community offering exclusive
+                            multi-acre lots and custom-built modern townhomes.
+                            Surrounded by lush nature trails, private lakes,
+                            and an elite country club designed for the perfect
+                            family lifestyle.
+                        </p>
+
+                        <div class="d-flex gap-3 mt-4 flex-wrap">
+                            <a href="#" class="btn btn-success px-4">
+                                View Project Details
+                            </a>
+
+                            <a href="#" class="btn btn-outline-secondary px-4">
+                                Download Brochure
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="luxury-living py-5">
+    <div class="container">
+
+        <div class="luxury-card">
+
+            <img src="/assests/images/luxury.png" alt="Luxury Living">
+
+            <div class="overlay">
+
+                <div class="content">
+
+                    <h2>Redefining Luxury Living Since <br> 2012.</h2>
+
+                    <ul class="feature-list">
+                        <li>Award-winning architecture and design partnerships</li>
+                        <li>Exclusive access to off-market premium listings</li>
+                        <li>Personalized, white-glove client advisory services</li>
+                    </ul>
+
+                </div>
+
+                <div class="stats row text-center">
+
+                    <div class="col-6 col-md-3">
+                        <h3>$2B+</h3>
+                        <p>Total Property Sales</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <h3>150+</h3>
+                        <p>Executive Active Listings</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <h3>12 Yrs</h3>
+                        <p>Market Experience</p>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <h3>100%</h3>
+                        <p>Commitment to Excellence</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="brands py-5">
+    <div class="container">
+
+        <div class="section-header mb-4">
+            <h2>Trusted By Brands</h2>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand1.png" alt="Town Square" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand2.png" alt="Lagunabay" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand3.png" alt="Ozone" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand4.png" alt="Srijan" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand5.png" alt="Palladina" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand6.png" alt="Logos Smart Offices" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand7.png" alt="Royal Ganges" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="brand-card">
+                    <img src="/assests/images/brand8.png" alt="Optima" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="row gy-4">
+
+            <!-- Logo & About -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-logo">
+                    <h4>Nestiva</h4>
+                    <span>Real Estate Company</span>
+                </div>
+
+                <p class="footer-text">
+                    Curating the world's most exceptional real estate.
+                    We guide our clients to homes that inspire and elevate their lifestyle.
+                </p>
+            </div>
+
+            <!-- Properties -->
+            <div class="col-lg-2 col-md-6">
+                <h6 class="footer-title">Properties</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Featured Listings</a></li>
+                    <li><a href="#">Off-Market</a></li>
+                    <li><a href="#">New Developments</a></li>
+                    <li><a href="#">Sold Property</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6">
+                <h6 class="footer-title">Company</h6>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Agents</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-2 col-md-6">
+                <h6 class="footer-title">Contact</h6>
+
+                <div class="footer-contact">
+                    <p>Nestiva</p>
+                    <p>16/3 Rajiv Road</p>
+                    <p>Kolkata - 700001</p>
+                    <p>India</p>
+                    <p>care@nestiva.in</p>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-12">
+                <h6 class="footer-title">Stay Updated</h6>
+
+                <p class="footer-text">
+                    Subscribe to our newsletter for exclusive market insights
+                    and latest listings.
+                </p>
+
+                <form class="newsletter-form">
+                    <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email address">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</footer>
     
 </body>
 </html>
