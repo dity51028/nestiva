@@ -58,7 +58,7 @@
 .hero{
    position: relative;
     height: 85vh;
-    background: url('/assests/images/hero.png') center center/cover no-repeat;
+    background: url('./assests/images/hero.png') center center/cover no-repeat;
     border-radius: 30px;
     overflow: hidden;
     display: flex;
